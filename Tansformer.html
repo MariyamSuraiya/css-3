@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trandformer</title>
+    <style>
+        .container,
+        .inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgb(195, 241, 28);
+            display: inline-block;
+            margin-bottom: 5%;
+        }
+
+        .container {
+            background-color: skyblue;
+        }
+
+        .inner {
+            background-color: lightcoral;
+            transform: scale(0.80);
+        }
+
+        .rotate,
+        .rotate-inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid khaki;
+
+
+        }
+
+        .rotate {
+            background-color: blanchedalmond;
+        }
+
+        .rotate-inner {
+
+            background-color: lightsalmon;
+            transform: rotate(45deg);
+        }
+
+        .merge,
+        .mixing {
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgb(69, 11, 204);
+            margin-left: 15%;
+
+        }
+
+        .merge {
+            background-color: lightpink;
+        }
+
+        .mixing {
+            background-color: lemonchiffon;
+            transform: rotate(50deg) scale(0.85);
+        }
+
+        .xy,
+        .translate {
+            width: 250px;
+            height: 200px;
+            border: 3px solid rgb(238, 124, 42);
+        }
+
+        .xy {
+            background-color: sandybrown;
+            ;
+        }
+
+        .translate {
+            background-color: navajowhite;
+            transform: translate(130px) rotate(40deg) scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Transformer I am doing
+    </h1>
+    <main>
+        <section class="box container">
+            <div class="inner">
+                Here there is a section box.The section box and the code box sixe can control by transform style.
+            </div>
+        </section>
+        <section class="box container">
+            <div class="inner">
+                Here there is a section box.The section box and the code box sixe can control by transform style.
+            </div>
+
+        </section>
+    </main>
+    <main>
+        <section class="rotate">
+            <div class="rotate-inner">
+                After transform scale apply,,,now I gonne use tramsform rotate.This can help a div inner present an
+                unique container box.
+            </div>
+        </section>
+        <section class="rotate">
+            <div class="rotate-inner">
+                After transform scale apply,,,now I gonne use tramsform rotate.This can help a div inner present an
+                unique container box.
+            </div>
+        </section>
+    </main>
+    <main>
+        <section class="merge">
+            <div class="mixing">
+                After rotate or scale ,,, now I use both of this in one line .I'm now doing ,scale and rotate both of.As
+                we know scale can show us to see container how much big or small.
+            </div>
+        </section>
+        <section class="merge">
+            <div class="mixing">
+                After rotate or scale ,,, now I use both of this in one line .I'm now doing ,scale and rotate both of.As
+                we know scale can show us to see container how much big or small.
+            </div>
+        </section>
+    </main>
+    <main>
+        <section class="xy">
+            <div class="translate">
+                NOw I gonna make a div transform who is translate .THe translate replacer a container from its place.It
+                working both in X,Y .
+            </div>
+        </section>
+        <section class="xy">
+            <div class="translate">
+                NOw I gonna make a div transform who is translate .THe translate replacer a container from its place.It
+                working both in X,Y .
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

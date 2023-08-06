@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 140px;
+            background-image: url('./Media/LOVESTAR.jpg');
+            background-size: 150px;
+            border: 2px solid rgb(134, 143, 8);
+            transition: width 1s linear 0.1s;
+        }
+
+        .box:hover {
+            width: 450px;
+        }
+
+        .ease {
+            width: 150px;
+            height: 160px;
+            background-image: url('./Media/STAR.gif');
+            background-size: 200px;
+            border: 2px solid #a0910e;
+            transition: width 2s ease;
+        }
+
+        .ease:hover {
+            width: 400px;
+        }
+
+        .height {
+            width: 150px;
+            height: 150px;
+            background-image: url('./Media/SNOWFLOWER.jpg');
+            background-size: contain;
+            border: 2px solid rgb(66, 107, 221);
+            transition: width 2s ease 0.5s, height 2.5s;
+        }
+
+        .height:hover {
+            width: 500px;
+            height: 250px;
+        }
+
+        .transform {
+            width: 150px;
+            height: 160px;
+            background-image: url('./Media/HUTMOON.jpg');
+            background-size: cover;
+            border: 3px solid rgb(2, 26, 77);
+            transition: width 3s ease, height 3s, transform 3s;
+        }
+
+        .transform:hover {
+            width: 500px;
+            height: 400px;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<div class="box"></div>
+<div class="ease"></div>
+<div class="height"></div>
+<div class="transform"></div>
+
+<body>
+
+</body>
+
+</html>
